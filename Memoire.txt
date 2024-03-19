@@ -1,0 +1,10 @@
+
+use contact  */// pour la creation de liste.
+
+db.contactlist.insertMany([{....}]) */// pour l'insertion de donnees.
+
+
+db.contactlist.find()  */// pour les documents présents dans la collection.
+
+db.contactlist.findOne({_id: ObjectId('le id...')}) Display all the information about only one person using his ID.
+
